@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(228, 221, 221);
+   font-size: 16px;
+}
+h1{
+    font-size: 1.2rem;
+}
+h2{
+    font-size: 1.1rem;
+}
+header {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+section h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+section{
+    width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgb(205, 220, 225);
+}
+section input,
+section select{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border: dashed;
+    border-color: rgb(195, 210, 228);
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+section label{
+    display: inline-block;
+    width: 220px;
+}
+footer{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}

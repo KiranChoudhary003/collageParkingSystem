@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage Parking System</title>
+    <link rel="stylesheet" href="./styling/clgparkingreg.css">
+    <script src="./script/app.js" type="module" ></script>
+</head>
+<body>
+    <header>
+       <h1>College Parking System</h1>
+    </header>
+    <main>
+        <section class="user">
+            <h1>User Registeration</h1> 
+            <input id="userName" type="text"
+             placeholder="Name*"
+             required> 
+            <input id="userContact" type="tel"
+            width="10"
+            placeholder="Contact*">
+            <select id="role">
+                <option disabled selected value="">--Select Type--</option>
+                <option value="student">Student</option>
+                <option value="faculty">Faculty</option>
+            </select>
+            <input id="userSaveBtn" type="submit"
+            value="Register">
+        </section>
+        <section class="vehicle">
+        <h1>Vehicle Registeration</h1>
+        <input id="vehicleId" type="text"
+        placeholder="Registeration*"
+        required> 
+        <select id="vehicleType">
+            <option disabled selected value="">--Select Type--</option>
+            <option value="car">Car</option>S
+            <option value="bike">Bike</option>
+            <option value="cycle">Cycle</option>
+        </select> 
+        <input id="vehicleSaveBtn" type="submit" 
+        value="Register">
+    </section >
+        <section class="passchoice"></section>
+        <section class="pass"></section>
+        <footer>
+            &copy;Copyright 2024-2025|All Rights Reserved
+        </footer>
+    </main>
+</body>
+</html>
